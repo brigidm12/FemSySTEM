@@ -1,0 +1,429 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Syne', sans-serif;
+}
+
+#header-background {
+  width: 100%;
+  background-image: url(https://www.commercialcafe.com/blogom/blog/wp-content/uploads/sites/10/Women-in-STEM-featured-image.jpg);
+}
+
+.information {
+  font-size: 20px;
+  margin-left: 5px;
+  /* background-color: #FAFF7F;  
+  color: #1B264F; */
+}
+
+.nav{
+  top:0;
+  left:0;
+  width:100%;
+  box-sizing:border-box;
+  transition:.5s;
+  
+}
+
+#navbar{
+    transition: top 0.4s;
+    background-color: #FAFF7F;
+
+}
+.btn1{
+  float:left;
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  color:#f9a7a7;
+  text-transform: uppercase;
+  font-weight: blod;
+  font-size: 1rem; 
+  border: none;
+  padding-top:1rem;
+  padding-right:1rem;
+  padding-left:1rem;
+}
+
+.navbar-brand{
+  border-right: 1px solid #f9a7a7;
+  padding-right:1rem;
+  display: inline;
+  
+}
+.navbar-nav{
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: blod;
+  font-size: 1rem;
+  border: none;
+  padding-right:1rem;
+  padding-left:1rem;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #f9a7a7;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.dropdown-menu a{
+  color:white;
+  padding: 10px 0 0 0;
+
+}
+.opening h1{
+  font-family: 'Lato', sans-serif;
+  color:white;
+  font-size:5rem;
+  margin-top:12rem;
+  text-shadow: 1px 1px black;
+}
+
+/* .info{
+  background-color:#FFFFFF;
+   -moz-box-shadow:    inset  10px -10px 300px 100px #FFB9DE;
+   -webkit-box-shadow: inset  10px -10px 300px 100px #FFB9DE;
+   box-shadow:  inset  10px -10px 300px 100px #FFB9DE;
+  padding-bottom:10rem;
+} */
+
+.ptag{
+  color:white;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  float:left;
+}
+
+.h3tag{
+  color: #6bdddd;
+  font-size:3rem;
+  float:left;
+}
+
+
+.h1tag2{
+  font-family: 'Lato', sans-serif;
+  color:#6bdddd;
+  font-size:3rem;
+}
+
+.btn{
+  font-size:1.5rem !important;
+  background-color:#f9a7a7 !important;
+  color:white !important;
+  border-color: #6bdddd!important;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  float:center;
+  transform: uppercase;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  border-radius: 0px !important;
+}
+
+.btn:hover{
+   opacity: 0.9;
+}
+
+footer {
+  color: white;
+}
+
+
+.home{
+    margin-top:5rem;
+    
+    background: url(https://www.vistaprojects.com/media/2020/02/Women-STEM-graphic_1200.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -moz-box-shadow:    inset  10px -10px 300px 100px #FFB9DE;
+    -webkit-box-shadow: inset  10px -10px 300px 100px #FFB9DE;
+     box-shadow:        inset  10px -10px 300px 100px #FFB9DE;
+     padding-bottom:8rem;
+           
+}
+ 
+#ad{
+  background-colox #4B0082;
+  height:5rem;
+  color:white;
+  font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 830px) {
+  #ad {
+    display:none;
+  }
+
+  .opening h1{
+   font-size: small;
+  }
+
+  .info svg{
+     display:none;
+  }
+
+  .h3tag{
+    margin-top:7rem;
+  }
+
+  #donation{
+     display:none;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 400px) {
+  
+  .ptag{
+    padding-bottom:1rem;
+  }
+
+ 
+}
+
+
+
+@media screen and (max-width: 1000px) {
+  
+  .help{
+    display:none;
+  }
+
+ 
+}
+
+@media screen and (max-width: 800px) {
+  
+  .info svg{
+     display:none;
+  }
+
+ 
+}
+
+.opening h1{
+  font-family: 'Lato', sans-serif;
+  color:white;
+  font-size:5rem;
+  margin-top:12rem;
+  text-shadow: 1px 1px black;
+}
+/* shadow here */
+/* .info{
+  background-color:#FFB9DE;
+   -moz-box-shadow:    inset  10px -10px 300px 100px #FFB9DE;
+   -webkit-box-shadow: inset  10px -10px 300px 100px #FFB9DE;
+   box-shadow:  inset  10px -10px 300px 100px #FFB9DE;
+  padding-bottom:10rem;
+} */
+
+.ptag{
+  color:white;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+  float:left;
+}
+
+.h3tag{
+  color: lightblue;
+  font-size:3rem;
+  font-family: 'Lato', sans-serif;
+  float:left;
+}
+
+.gif{
+    display: inline-block;
+    vertical-align: middle;
+    width: 95%;
+    height: 100%;
+ 
+}
+
+.h1tag2{
+  font-family: 'Lato', sans-serif;
+  color:#01cbe1;
+  font-size:3rem;
+}
+
+.carousel{
+  font-family: 'Lato', sans-serif;
+  color:#1a75ff	;
+  font-size:18px;
+}
+@media(max-width:720px){
+  #carousel1 .carousel-item img{
+    opacity:0.6;
+    height:70vh !important;
+  }
+  .btn{
+    width:25vw;
+    height:8vh;
+  }
+  .mission{
+    display:none;
+  }
+  .learnLink{
+    display:none !important;
+  }
+}
+
+@media(min-width:720px){
+  #carousel1 .carousel-item img{
+    opacity:0.4;
+    height:100vh !important;
+  }
+   .mobile-mission{
+    display: none;
+  }
+}
+
+/* extra spacing */
+.spacing{
+  height: 1vh;
+}
+
+
+/* chat bot button */
+.bot{
+  width: 185px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    object-fit: contain;
+    border-radius: 200px;
+    background-color: #000000;
+    border: 1px solid white;
+    color: white;
+   position:fixed;
+  bottom:0;
+  left:0;
+  width:10%;
+  height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+
+
+    /* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: #FAFF7F;
+  color: #1B264F;
+  padding: 16px 20px;
+  border: 1px solid white;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 15%;
+  height:90px;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 200px;
+
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  color: black;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+/* this is where i changed the color of the ai box to black from white */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  /* min-height: 200px; */
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .botbtn {
+  background-color: #FFB9DE;
+  color: #1B264F;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 1.0;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #FAFF7F;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+.bubble:after{
+   position:absolute;
+   content: ""; 
+   top:15px;right:-10px;
+   border-width: 10px 0 10px 15px;
+   border-color: transparent  #AAAAFF;
+   border-style: solid;
+ }
+
+ canvas { 
+   margin: 0 auto; 
+   display: block;
+   margin-top: 110px;
+   width: 100%;
+}

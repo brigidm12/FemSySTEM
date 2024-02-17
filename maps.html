@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&display=swap" rel="stylesheet">
+    <!-- Link to CSS Files -->
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/map.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+  <script src="map.js"></script>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#FAFF7F;" id="navbar">
+      <a class="navbar-brand" href="index.html"><img src="pics/FemSySTEM Logo.png"style=" height:4.5rem;width:7rem;"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul style="float:left;">
+        <li class="btn1 dropdown">
+          <a class="nav-link" href="index.html" style="color:#003755;">The Problem <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="btn1 dropdown">
+          <a class="nav-link" href="about.html" style="color:#003755;">Our Impact & Partners <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="btn1 dropdown">
+          <a class="nav-link" href="maps.html" style="color:#003755;">Map <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="btn1 dropdown">
+          <a class="nav-link" href="game.html" style="color:#003755;">Game <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="btn1 dropdown">
+          <a class="nav-link" href="https://www.linkedin.com/"><img src="pics/linkedin.png" style=" width:100px; height:100px; margin-top:-55px; margin-bottom:-40px; "><span class="sr-only">(current)</span></a>
+        </li> 
+      </ul>
+    </nav>
+  <!-- Map -->
+  <div id="map"></div>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAlBn9WZFbAR62IflRJo8cbfOQpjfxsmk&callback=initMap">
+  </script>
+  </body>
+</html>
